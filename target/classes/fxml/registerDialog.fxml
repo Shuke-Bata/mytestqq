@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="main" prefHeight="550.0" prefWidth="600.0" stylesheets="@../css/registerDialog.css"
+            xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="253.0" layoutY="30.0" prefHeight="62.0" prefWidth="126.0" text="欢迎注册">
+            <font>
+                <Font name="Microsoft Yi Baiti" size="30.0"/>
+            </font>
+        </Label>
+        <TextField id="account" layoutX="177.0" layoutY="123.0" prefHeight="42.0" prefWidth="247.0" promptText="请输入昵称"
+                   style="-fx-padding-left: 30;">
+            <padding>
+                <Insets left="30.0"/>
+            </padding>
+        </TextField>
+        <TextField id="name" layoutX="180.0" layoutY="193.0" prefHeight="42.0" prefWidth="247.0" promptText="请输入姓名">
+            <padding>
+                <Insets left="30.0"/>
+            </padding>
+        </TextField>
+        <RadioButton id="man" layoutX="205.0" layoutY="400.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="50.0"
+                     selected="true" text="男"/>
+        <RadioButton id="women" layoutX="365.0" layoutY="400.0" mnemonicParsing="false" prefHeight="23.0"
+                     prefWidth="50.0" text="女"/>
+        <Button id="back" layoutX="141.0" layoutY="472.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="78.0"
+                text="取消"/>
+        <Button id="register" layoutX="376.0" layoutY="472.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="78.0"
+                text="注册"/>
+        <Label id="accountError" layoutX="196.0" layoutY="165.0" prefHeight="20.0" prefWidth="216.0" textFill="RED">
+            <font>
+                <Font size="12.0"/>
+            </font>
+        </Label>
+        <Label id="nameError" layoutX="196.0" layoutY="235.0" prefHeight="20.0" prefWidth="216.0" textFill="RED">
+            <font>
+                <Font size="12.0"/>
+            </font>
+        </Label>
+        <Label id="passwordError" layoutX="192.0" layoutY="305.0" prefHeight="20.0" prefWidth="216.0" textFill="RED">
+            <font>
+                <Font size="12.0"/>
+            </font>
+        </Label>
+        <Label id="rePasswordError" layoutX="196.0" layoutY="372.0" prefHeight="20.0" prefWidth="216.0" textFill="RED">
+            <font>
+                <Font size="12.0"/>
+            </font>
+        </Label>
+        <PasswordField id="password" layoutX="180.0" layoutY="263.0" prefHeight="42.0" prefWidth="247.0"
+                       promptText="请输入密码">
+            <padding>
+                <Insets left="30.0"/>
+            </padding>
+        </PasswordField>
+        <PasswordField id="rePassword" layoutX="180.0" layoutY="330.0" prefHeight="42.0" prefWidth="247.0"
+                       promptText="请确认密码">
+            <padding>
+                <Insets left="30.0"/>
+            </padding>
+        </PasswordField>
+    </children>
+</AnchorPane>

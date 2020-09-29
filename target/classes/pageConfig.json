@@ -1,0 +1,42 @@
+{
+  "loginPage": {
+    "fxml": "/fxml/loginDialog.fxml",
+    "width": 448,
+    "height": 397
+  },
+  "registerPage": {
+    "fxml": "/fxml/registerDialog.fxml",
+    "width": 600,
+    "height": 550
+  },
+  "homePage": {
+    "fxml": "/fxml/homePage.fxml",
+    "width": 320,
+    "height": 597
+  },
+  "chatPage": {
+    "fxml": "/fxml/chatWindow.fxml",
+    "width": 638,
+    "height": 599
+  },
+  "addFriendPage": {
+    "fxml": "/fxml/addFriendPage.fxml",
+    "width": 600,
+    "height": 400
+  },
+  "alterPage": {
+    "fxml": "/fxml/alterPage.fxml",
+    "width": 350,
+    "height": 140
+  },
+  "sureAddPage": {
+    "fxml": "/fxml/sureAddPage.fxml",
+    "width": 380,
+    "height": 280
+  },
+  "friendRequestInfoPage": {
+    "fxml": "/fxml/friendRequestInfoPage.fxml",
+    "width": 422,
+    "height": 262
+  }
+}

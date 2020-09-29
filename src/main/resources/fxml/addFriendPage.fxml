@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="background" prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/addFriendPage.css"
+            xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="248.0" layoutY="5.0" prefHeight="47.0" prefWidth="105.0" text="添加好友" textFill="#8814da">
+            <font>
+                <Font size="23.0"/>
+            </font>
+        </Label>
+        <TextField id="textInput" layoutX="162.0" layoutY="52.0" prefHeight="48.0" prefWidth="277.0"
+                   promptText="输入要查找的账号">
+            <padding>
+                <Insets left="40.0"/>
+            </padding>
+        </TextField>
+        <ListView id="friendList" layoutX="35.0" layoutY="110.0" prefHeight="255.0" prefWidth="534.0"/>
+        <Button id="close" layoutX="563.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="37.0"/>
+        <Button id="mini" layoutX="526.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="37.0"/>
+    </children>
+</AnchorPane>
